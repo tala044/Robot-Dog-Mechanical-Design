@@ -57,6 +57,10 @@ Servo motors are considered for controlling the robot joints because they can pr
 
 The servo motor placeholders in the design represent the locations where motors could be installed to control the hip and knee joints.
 
+For this simplified design, a servo motor with a torque rating higher than the estimated minimum torque of 0.49 N·m is recommended.
+
+A standard high-torque servo motor can be considered for the hip and knee joints to provide an additional safety margin for leg movement and dynamic loads.
+
 ## Mechanical Calculations
 
 Basic mechanical calculations are included to estimate the torque required at the joints and to consider the effect of the robot's weight and center of gravity.
